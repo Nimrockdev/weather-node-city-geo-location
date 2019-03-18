@@ -26,6 +26,8 @@ const getLugarLatLng = async(dir) => {
         longitud
     }
 
+
+    /*Este es el anterior servicio a Google API*/
     /*let encodeURL = encodeURI(direccion);
     let resp = await axios.get(`https://maps.googleapis.com/maps/api/geocode/json?address=${encodeURL}&key=AIzaSyDyJPPlnIMOLp20Ef1LlTong8rYdTnaTXM`)
 
